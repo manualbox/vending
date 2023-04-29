@@ -1,3 +1,22 @@
+@import url(fontawesome.css);
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900");
 body {
-  background-color: rgb(237, 122, 14);
+  background-color: rgb(23, 34, 56);
+  font-family: "Montserrat", sans-serif;
+}
+
+texto-logo1 {
+  font-style: normal;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+}
+
+texto-logo2 {
+  font-style: normal;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: rgb(245, 164, 37);
 }/*# sourceMappingURL=main.css.map */
