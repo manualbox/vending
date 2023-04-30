@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>ManualBox</title>
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+
+
+
+	<header class="main-header clearfix" role="header">
+		<div class="container">
+		<div class="logo"> 	
+			<texto-logo2>manual</texto-logo2>
+			<texto-logo1>box</texto-logo1>
+			<nav>
+				<a href="#">Coffe</a>
+					<ul class="submenu">
+						<a href="#">prueba</a>
+						<a href="#">prueba</a>
+						<a href="#">prueba</a>
+					</u>
+				<a href="#">Snacks</a>
+				<a href="#">Combi</a>
+				<a href="#">Drinks</a>
+				<a href="#">Bandejas</a>
+				<a href="#">Pay Systems</a>
+
+			</nav>
+		</div>
+		</div>
+	</header>
+	<section id="mensaje">
+		<h1>todos los manuales <br> en un solo lugar</h1>
+	<button>
+		entrada
+	</button>
+	</section>
+
+
+
+		<nav id="menu" class="main-nav" role="navigation">
+		  <ul class="main-menu">
+			<li><a href="#section1">Home</a></li>
+			<li class="has-submenu"><a href="#section2">About Us</a>
+			  <ul class="sub-menu">
+				<li><a href="#section2">Who we are?</a></li>
+				<li><a href="#section3">What we do?</a></li>
+				<li><a href="#section3">How it works?</a></li>
+				<li><a href="https://templatemo.com/about" rel="sponsored" class="external">External URL</a></li>
+			  </ul>
+			</li>
+			<li><a href="#section4">Courses</a></li>
+			<!-- <li><a href="#section5">Video</a></li> -->
+			<li><a href="#section6">Contact</a></li>
+			<li><a href="https://templatemo.com" class="external">External</a></li>
+		  </ul>
+		</nav>
+	  </header>
+	
+
+
+
+
+	
+	
+	
+	
+	
+	<body>
+		<div> 	
+			<texto-logo2>manual</texto-logo2>
+			<texto-logo1>box</texto-logo1></div>
+	</body>
+</html>

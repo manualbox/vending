@@ -11,7 +11,8 @@
 			content="
 		width=device-width,
 		initial-scale=1,
-		minimum-scale=1
+		minimum-scale=1,
+		user-scalable=no
 		"
 		/>
 
@@ -22,7 +23,7 @@
 		/>
 		<link
 			rel="stylesheet"
-			href="assets/css/style.css"
+			href="assets/css/main.css"
 		/>
 		<!-- <link
 			rel="stylesheet"

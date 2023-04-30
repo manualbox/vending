@@ -1,22 +1,127 @@
+/* IMPORTS */
 @import url(fontawesome.css);
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900");
+/* PALETA DE COLORES */
+/* GENERALES */
+.topnav {
+  display: flex;
+  justify-content: space-between;
+}
+
 body {
   background-color: rgb(23, 34, 56);
   font-family: "Montserrat", sans-serif;
 }
 
-texto-logo1 {
+a {
+  text-decoration: none;
+}
+
+/* SECCION DEL MENU */
+.class-menu {
+  background-color: rgb(23, 34, 56);
+}
+
+#bg-video::-webkit-media-controls {
+  display: none !important;
+}
+
+#video-fondo {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100vh;
+  max-width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+.btn-bootstrap {
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.btn-bootstrap:hover, .btn-bootstrap:focus {
+  background-color: #0069d9;
+}
+
+.btn-bootstrap:active {
+  background-color: #0062cc;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.buttonBox1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 10px auto 35px;
+}
+
+.button:hover {
+  transition: 0.4s ease-in-out;
+  background: rgb(205, 169, 50);
+  color: rgb(14, 14, 17);
+}
+
+/* .btn{margin:16px 6px 2px 0;color:#ffffff;font-weight:bold;display:inline-block;padding:6px 12px;font-size:16px;text-align:center;cursor:pointer;outline:0;float:left;background-color:#55acee;}
+.btn a {color:#ffffff;text-decoration:none;}
+ */
+.botones-menu {
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  padding: 12px 20px;
+  display: inline-block;
+  outline: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
   font-style: normal;
-  font-size: 36px;
+  font-size: 40px;
   text-transform: uppercase;
   font-weight: 800;
+  padding-left: 30px !important;
+  float: left;
+}
+
+texto-logo1 {
   color: rgb(255, 255, 255);
+  align-self: auto;
 }
 
 texto-logo2 {
-  font-style: normal;
-  font-size: 36px;
-  text-transform: uppercase;
-  font-weight: 800;
   color: rgb(245, 164, 37);
+}
+
+/* MENU */
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-right: 10px;
+}
+
+.menu li {
+  padding: 20px 15px;
+}
+
+.menu a {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */

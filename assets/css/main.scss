@@ -1,28 +1,212 @@
+/* IMPORTS */
 @import url(fontawesome.css);
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900");
 
+/* PALETA DE COLORES */
 $colorfondo: rgba(23, 34, 56, 1);
 $colorlogo1: rgba(255, 255, 255, 1);
 $colorlogo2: rgba(245, 164, 37, 1);
+$colormenu: rgb(255, 255, 255, 1);
 
+/* GENERALES */
+.topnav {
+	display: flex;
+	justify-content: space-between;
+}
 body {
 	background-color: $colorfondo;
 	font-family: "Montserrat", sans-serif;
 }
-
-texto-logo1 {
-	font-style: normal;
-	font-size: 36px;
-	text-transform: uppercase;
-	font-weight: 800;
-	color: $colorlogo1;
+a {
+	text-decoration: none;
 }
 
-texto-logo2 {
+/* SECCION DEL MENU */
+.class-menu {
+	background-color: $colorfondo;
+}
+
+#bg-video::-webkit-media-controls {
+	display: none !important;
+}
+
+#video-fondo {
+	position: absolute;
+	min-width: 100%;
+	min-height: 100vh;
+	max-width: 100%;
+	max-height: 100vh;
+	object-fit: cover;
+	z-index: -1;
+	opacity: 0.3;
+}
+
+.btn-bootstrap {
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color .15s ease-in-out;
+  }
+  
+  .btn-bootstrap:hover, .btn-bootstrap:focus {
+    background-color: #0069d9;
+  }
+  
+  .btn-bootstrap:active {
+    background-color: #0062cc;
+  }
+
+
+
+button {
+    // position: absolute;
+    // background: transparent;
+    // display: flex;
+     // box-sizing: border-box;
+    // border-radius: 0.6rem;
+    // align-self: center;
+    // font-size: 17px;
+    // font-weight: 400;
+    // margin: 20px;
+    // padding: 20px 40px;
+    // text-align: center;
+    // color: aliceblue;
+    // font-family: Pangolin;
+    // font-weight: bold;
+    // cursor: pointer;
+    // top: 50%;
+    // text-transform: uppercase;
+    // border: solid 2px rgb(205, 169, 50);
+    // display:flex
+    
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+  }
+.buttonBox1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 10px auto 35px;
+}
+
+.button:hover {
+    transition: 0.4s ease-in-out;
+    background: rgb(205, 169, 50);
+    color: rgb(14, 14, 17);
+}
+
+
+/* .btn{margin:16px 6px 2px 0;color:#ffffff;font-weight:bold;display:inline-block;padding:6px 12px;font-size:16px;text-align:center;cursor:pointer;outline:0;float:left;background-color:#55acee;}
+.btn a {color:#ffffff;text-decoration:none;}
+ */
+
+.botones-menu  {
+// /*     display: flex;
+//     border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+// padding: 10px; /*espacio alrededor texto*/
+// background-color: #2e518b; /*color botón*/
+// color: #ffffff; /*color texto*/
+// text-decoration: none; /*decoración texto*/
+// text-transform: uppercase; /*capitalización texto*/
+// font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+// border-radius: 50px; /*bordes redondos*/
+//  */	background-color: #f5a425;
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	font-weight: 700;
+	padding: 12px 20px;
+	display: inline-block;
+	outline: none;
+}
+
+.logo {
+	// background-color: $colorfondo;
+	display: flex;
+	align-items: center;
 	font-style: normal;
-	font-size: 36px;
+	font-size: 40px;
 	text-transform: uppercase;
 	font-weight: 800;
+	padding-left: 30px !important;
+	float: left;
+
+	// line-height: 80px;
+}
+texto-logo1 {
+	color: $colorlogo1;
+	align-self: auto;
+}
+texto-logo2 {
 	color: $colorlogo2;
 }
 
+/* MENU */
+.menu {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding-right: 10px;
+}
+
+.menu li {
+	padding: 20px 15px;
+}
+
+.menu a {
+	color: $colormenu;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 400;
+	// line-height: 80px;
+}
+
+// @viewport {
+// 	zoom: 1;
+
+// 	width: device-width;
+// }
+// @media (max-width: 768px) {
+// 	#video-fondo {
+// 		position: absolute;
+// 		min-width: 100%;
+// 		min-height: 100vh;
+// 		max-width: 100%;
+// 		max-height: 100vh;
+// 		object-fit: cover;
+// 		z-index: -1;
+// 	}
+// }
+
+// /* VIDEO DE FONDO */
+// #bg-video {
+// 	position: absolute;
+
+// 	min-width: 100%;
+// 	min-height: 100vh;
+// 	max-width: 100%;
+// 	max-height: 100vh;
+// 	object-fit: cover;
+// 	z-index: -1;
+// }
+
+// #bg-video::-webkit-media-controls {
+// 	display: none !important;
+// }
+
+// .video-overlay {
+// 	position: relative;
+// 	background-color: rgba(22, 34, 57, 0.85);
+// 	// top: 80px;
+// 	left: 0;
+// 	bottom: 0vh;
+// 	width: 100%;
+// 	height: 100vh;
+// }
